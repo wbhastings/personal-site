@@ -1,0 +1,107 @@
+/**
+ *
+ * Globals
+ *
+ */
+/** Links **/
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/** Buttons **/
+.btn-default,
+.btn-default:hover,
+.brn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: #fff solid 1px; }
+
+/**
+ *
+ * Base Structure
+ *
+ */
+html,
+body {
+  height: 100%;
+  background-color: #333; }
+
+body {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.site-wrapper {
+  margin-top: 90px; }
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+  @media (min-width: 768px) {
+    .site-wrapper-inner {
+      vertical-align: middle; } }
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%; }
+
+/** Header **/
+@media (min-width: 768px) {
+  .masthead {
+    position: fixed;
+    top: 0; } }
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .masthead-brand {
+      float: left; } }
+
+@media (min-width: 768px) {
+  .masthead-nav {
+    float: right; } }
+
+.masthead-nav > li {
+  display: inline-block; }
+
+.masthead-nav > li + li {
+  margin-left: 20px; }
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #fff;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 2px solid transparent; }
+  .masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #A9A9A9;
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff; }
+
+/**
+ *
+ * Footer
+ *
+ */
+.mastfoot {
+  color: #999;
+  /* IE8 Spoofing */
+  color: rgba(255, 255, 255, 0.5); }
+  @media (min-width: 768px) {
+    .mastfoot {
+      position: fixed;
+      bottom: 0; } }
+
+/*# sourceMappingURL=main.css.map */

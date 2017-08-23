@@ -1,0 +1,22 @@
+baseURL = "http://williamhastings.me/"
+languageCode = "en-us"
+title = "William Hastings"
+theme ="mytheme"
+copyright = "Copyright &#xA9; 2017 William Hastings"
+
+aliases = [
+  "/posts/",
+  "/blog/"
+]
+
+[params]
+subtitle = "I'm Undergraduate Computer Science major with a minor in Mathematics at The Univerversity of Arizona. I am doing what I love, and you can't ask for much more than that!"
+contact = "william@willhastings.net"
+twitter = "willbhastings"
+instagram = "wbhastings"
+facebook = "willbhastings"
+github = "wbhastings"
+linkedin = "william-hastings-03128194"
+
+[permalinks]
+blog = "/blog/:monthname/:year/:title/"

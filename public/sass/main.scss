@@ -1,0 +1,148 @@
+/**
+ *
+ * Globals
+ *
+ */
+
+/** Links **/
+a,
+a:focus,
+a:hover {
+	color: #fff;
+}
+
+/** Buttons **/
+.btn-default,
+.btn-default:hover,
+.brn-default:focus {
+	color: #333;
+	text-shadow: none;
+	background-color: #fff;
+	border: #fff solid 1px;
+}
+
+/**
+ *
+ * Base Structure
+ *
+ */
+html,
+body {
+	height: 100%;
+	background-color: #333;
+}
+
+body {
+	color: #fff;
+	//text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.site-wrapper {
+	margin-top: 90px;
+}
+
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: top;
+
+	@media (min-width: 768px) {
+		vertical-align: middle;
+	}
+}
+
+.cover-container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+
+	@media (min-width: 768px) {
+		//width: 100%;
+	}
+	@media (min-width: 992px) {
+		//width: 700px;
+	}
+}
+
+/** Header **/
+.masthead {
+	@media (min-width: 768px) {
+		position: fixed;
+		//width: 100%;
+		top: 0;
+	}
+
+	@media (min-width: 992px) {
+		//width: 700px;
+	}
+}
+
+.masthead-brand { 
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	@media (min-width: 768px) {
+		float: left;
+	}
+}
+
+.masthead-nav {
+	@media (min-width: 768px) {
+		float: right;
+	}
+}
+
+.masthead-nav > li {
+	display: inline-block;
+}
+
+.masthead-nav > li + li {
+	margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #fff; /* IE8 proofing */
+	color: rgba(255,255,255,0.75);
+	border-bottom: 2px solid transparent;
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		border-bottom-color: #A9A9A9;
+		border-bottom-color: rgba(255,255,255,0.25);
+	}
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+
+/**
+ *
+ * Footer
+ *
+ */
+.mastfoot {
+	color: #999; /* IE8 Spoofing */
+	color: rgba(255,255,255,0.5);
+	//width: 100%;
+
+	@media (min-width: 768px) {
+		position: fixed;
+		//width: 100%;
+		bottom: 0;
+	}
+	@media (min-width: 992px) {
+		//width: 700px;
+	}
+}
+
+

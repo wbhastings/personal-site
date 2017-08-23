@@ -1,0 +1,137 @@
+/**
+ *
+ * Globals
+ *
+ */
+
+$header-footer-bar: #162D59;
+$page-background: #AFAFAF;
+$content-background: #EFEFEF;
+
+$font-color: #2E2E2E;
+
+/** Links **/
+a,
+a:focus,
+a:hover {
+	color: $font-color;
+}
+
+/** Buttons **/
+.btn-default,
+.btn-default:hover,
+.brn-default:focus {
+	color: $font-color;
+	text-shadow: none;
+	background-color: #fff;
+	border: #fff solid 1px;
+}
+
+/**
+ *
+ * Base Structure
+ *
+ */
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+
+	background: $page-background;
+}
+
+.site-wrapper {
+	padding-top: 90px;
+	padding-bottom: 40px;
+	min-height: 100%;
+	background: $content-background;
+	box-shadow: 12px 0 15px -4px #888, -12px 0 8px -4px #888;
+}
+
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: top;
+
+	@media (min-width: 768px) {
+		vertical-align: middle;
+	}
+}
+
+.cover-container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+/** Header **/
+.masthead {
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+	background: $header-footer-bar;
+	padding-bottom: 10px;
+}
+
+.masthead-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: $content-background;
+
+	@media (min-width: 768px) {
+		float: left;
+	}
+}
+
+.masthead-nav {
+	@media (min-width: 768px) {
+		float: right;
+	}
+}
+
+.masthead-nav > li {
+	display: inline-block;
+}
+
+.masthead-nav > li + li {
+	margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: $content-background;
+	border-bottom: 2px solid transparent;
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		border-bottom-color: #A9A9A9;
+		border-bottom-color: rgba(255,255,255,0.25);
+	}
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: $content-background;
+	border-bottom-color: #fff;
+}
+
+
+/**
+ *
+ * Footer
+ *
+ */
+.mastfoot {
+	color: #999; /* IE8 Spoofing */
+	color: rgba(255,255,255,0.5);
+	background: $header-footer-bar;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+}

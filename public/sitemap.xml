@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://williamhastings.me/posts/my-first-post/</loc>
+    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/posts/hello-hugo/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/tags/blog/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/categories/example/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/tags/example/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/categories/hello/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/tags/hugo/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/posts/</loc>
+    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/tags/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/</loc>
+    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

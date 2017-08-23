@@ -1,0 +1,25 @@
+			{{ partial "header.html" . }}
+
+
+			<!-- Header/content -->
+			<!--
+			<div class="container inner cover">
+				<h1 class="cover-heading">William Hastings</h1>
+				<p class="lead">I am a Computer Science Undergraduate at The University of Arizona. I am minoring in mathematics, and physics.</p>
+				<p class="lead">
+					<a href="#" class="btn btn-lg btn-default">Learn more</a>
+				</p>
+			</div>
+			-->
+
+			<div class="inner cover">
+				<h1 class="cover-heading">William Hastings</h1>
+				<div class="article-list">
+					{{ range $index, $page := .Paginator.Pages }}
+						{{ .Render "li" }}
+						<hr />
+					{{ end }}
+				</div>
+			</div>
+
+			{{ partial "footer.html" . }}

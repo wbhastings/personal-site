@@ -4,18 +4,24 @@
  *
  */
 
+$header-footer-bar: #162D59;
+$page-background: #AFAFAF;
+$content-background: #EFEFEF;
+
+$font-color: #2E2E2E;
+
 /** Links **/
 a,
 a:focus,
 a:hover {
-	color: #fff;
+	color: $font-color;
 }
 
 /** Buttons **/
 .btn-default,
 .btn-default:hover,
 .brn-default:focus {
-	color: #333;
+	color: $font-color;
 	text-shadow: none;
 	background-color: #fff;
 	border: #fff solid 1px;
@@ -29,17 +35,17 @@ a:hover {
 html,
 body {
 	height: 100%;
-	background-color: #333;
-}
+	min-height: 100%;
 
-body {
-	color: #fff;
-	//text-align: center;
-	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background: $page-background;
 }
 
 .site-wrapper {
-	margin-top: 90px;
+	padding-top: 90px;
+	padding-bottom: 40px;
+	min-height: 100%;
+	background: $content-background;
+	box-shadow: 12px 0 15px -4px #888, -12px 0 8px -4px #888;
 }
 
 .site-wrapper-inner {
@@ -55,31 +61,22 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-
-	@media (min-width: 768px) {
-		//width: 100%;
-	}
-	@media (min-width: 992px) {
-		//width: 700px;
-	}
 }
 
 /** Header **/
 .masthead {
-	@media (min-width: 768px) {
-		position: fixed;
-		//width: 100%;
-		top: 0;
-	}
+	position: fixed;
+	width: 100%;
+	top: 0;
 
-	@media (min-width: 992px) {
-		//width: 700px;
-	}
+	background: $header-footer-bar;
+	padding-bottom: 10px;
 }
 
-.masthead-brand { 
+.masthead-brand {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: $content-background;
 
 	@media (min-width: 768px) {
 		float: left;
@@ -105,8 +102,7 @@ body {
 	padding-left: 0;
 	font-size: 1.2em;
 	font-weight: 700;
-	color: #fff; /* IE8 proofing */
-	color: rgba(255,255,255,0.75);
+	color: $content-background;
 	border-bottom: 2px solid transparent;
 
 	&:hover,
@@ -120,7 +116,7 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-	color: #fff;
+	color: $content-background;
 	border-bottom-color: #fff;
 }
 
@@ -133,16 +129,9 @@ body {
 .mastfoot {
 	color: #999; /* IE8 Spoofing */
 	color: rgba(255,255,255,0.5);
-	//width: 100%;
-
-	@media (min-width: 768px) {
-		position: fixed;
-		//width: 100%;
-		bottom: 0;
-	}
-	@media (min-width: 992px) {
-		//width: 700px;
-	}
+	background: $header-footer-bar;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
 }
-
-

@@ -1,0 +1,19 @@
+.navigation-wrapper {
+	border-bottom: grey 2px solid;
+}
+
+nav {
+	.nav.nav-pills {
+		> li {
+			width: 20%;
+			text-align: center;
+
+			+ li {
+				margin-left: 0;
+			}
+		}
+	}
+	a {
+		font-family: $font-fancy;
+	}
+}

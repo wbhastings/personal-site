@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://williamhastings.me/posts/my-first-post/</loc>
-    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://williamhastings.me/posts/hello-hugo/</loc>
+    <loc>http://williamhastings.me/blog/september/2014/hello-hugo/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,18 +14,24 @@
   </url>
   
   <url>
-    <loc>http://williamhastings.me/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://williamhastings.me/categories/example/</loc>
+    <loc>http://williamhastings.me/blog/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://williamhastings.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://williamhastings.me/tags/example/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/categories/example/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -48,12 +49,6 @@
   </url>
   
   <url>
-    <loc>http://williamhastings.me/posts/</loc>
-    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://williamhastings.me/tags/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -61,7 +56,7 @@
   
   <url>
     <loc>http://williamhastings.me/</loc>
-    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

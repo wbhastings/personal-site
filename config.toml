@@ -1,7 +1,7 @@
 baseURL = "http://williamhastings.me/"
 languageCode = "en-us"
 title = "William Hastings"
-theme ="mytheme"
+theme ="mytheme2"
 copyright = "Copyright &#xA9; 2017 William Hastings"
 
 aliases = [

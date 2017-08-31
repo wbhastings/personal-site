@@ -1,0 +1,14 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Condensed|Poiret+One|Yanone+Kaffeesatz|Yellowtail';
+
+$font-normal: 'Dosis', sans-serif;
+$font-clean: 'Poiret One', sans-serif;
+$font-fancy: 'Yellowtail', cursive;
+
+$header-background-color: #21407F;
+$footer-background-color: #102040;
+
+$font-color-milky: #FFFDF6;
+
+* {
+	font-family: $font-normal;
+}

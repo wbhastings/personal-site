@@ -1,0 +1,24 @@
+@import "https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Condensed|Poiret+One|Yanone+Kaffeesatz|Yellowtail";
+* {
+  font-family: "Dosis", sans-serif; }
+
+.site-header {
+  background: #21407F;
+  color: #FFFDF6; }
+
+.navigation-wrapper {
+  border-bottom: grey 2px solid; }
+
+nav .nav.nav-pills > li {
+  width: 20%;
+  text-align: center; }
+  nav .nav.nav-pills > li + li {
+    margin-left: 0; }
+nav a {
+  font-family: "Yellowtail", cursive; }
+
+footer {
+  background: #102040;
+  color: #FFFDF6; }
+
+/*# sourceMappingURL=main.css.map */

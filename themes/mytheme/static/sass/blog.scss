@@ -1,0 +1,12 @@
+.blog-article-list {
+	article {
+		border-bottom: grey solid 2px;
+
+		&:last-child {
+			border: none;
+		}
+		.pager {
+			text-align: right;
+		}
+	}
+}

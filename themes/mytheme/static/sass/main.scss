@@ -1,3 +1,7 @@
+/** Imports **/
+@import "https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Encode+Sans+Semi+Condensed:700|Indie+Flower|Rajdhani";
+@import 'blog';
+
 /**
  *
  * Globals
@@ -36,13 +40,14 @@ html,
 body {
 	height: 100%;
 	min-height: 100%;
+	font-family: 'Rajdhani', sans-serif;
 
 	background: $page-background;
 }
 
 .site-wrapper {
-	padding-top: 90px;
-	padding-bottom: 40px;
+	//padding-top: 90px;
+	//padding-bottom: 40px;
 	min-height: 100%;
 	background: $content-background;
 	box-shadow: 12px 0 15px -4px #888, -12px 0 8px -4px #888;
@@ -64,74 +69,37 @@ body {
 }
 
 /** Header **/
-.masthead {
-	position: fixed;
-	width: 100%;
-	top: 0;
-
-	background: $header-footer-bar;
-	padding-bottom: 10px;
+.site-title {
+	text-align: center;
+	font-size: 6em;
+	font-family: 'Rajdhani', sans-serif;
 }
 
-.masthead-brand {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: $content-background;
+/** Navigation **/
+.nav.nav-pills {
+	border-top: grey solid 2px;
+	border-bottom: grey solid 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 
-	@media (min-width: 768px) {
-		float: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.3em;
+
+	> li {
+		width: 20%;
+		text-align: center;
+
+		a {
+			padding: 7px 13px;
+		}
+	}
+	> li + li {
+		margin-left: 0;
 	}
 }
-
-.masthead-nav {
-	@media (min-width: 768px) {
-		float: right;
-	}
-}
-
-.masthead-nav > li {
-	display: inline-block;
-}
-
-.masthead-nav > li + li {
-	margin-left: 20px;
-}
-
-.masthead-nav > li > a {
-	padding-right: 0;
-	padding-left: 0;
-	font-size: 1.2em;
-	font-weight: 700;
-	color: $content-background;
-	border-bottom: 2px solid transparent;
-
-	&:hover,
-	&:focus {
-		background-color: transparent;
-		border-bottom-color: #A9A9A9;
-		border-bottom-color: rgba(255,255,255,0.25);
-	}
-}
-
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-	color: $content-background;
-	border-bottom-color: #fff;
-}
-
 
 /**
  *
  * Footer
  *
  */
-.mastfoot {
-	color: #999; /* IE8 Spoofing */
-	color: rgba(255,255,255,0.5);
-	background: $header-footer-bar;
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	padding-top: 10px;
-}

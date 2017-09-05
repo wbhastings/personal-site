@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on William Hastings</title>
+    <link>http://williamhastings.me/portfolio/</link>
+    <description>Recent content in Portfolios on William Hastings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#xA9; 2017 William Hastings</copyright>
+    <lastBuildDate>Sat, 02 Sep 2017 09:31:16 -0700</lastBuildDate>
+    
+	<atom:link href="http://williamhastings.me/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trail Riders of Southern Arizona</title>
+      <link>http://williamhastings.me/portfolio/trail-riders-of-southern-arizona/</link>
+      <pubDate>Sat, 02 Sep 2017 09:31:16 -0700</pubDate>
+      
+      <guid>http://williamhastings.me/portfolio/trail-riders-of-southern-arizona/</guid>
+      <description>Description Trail Riders of Southen Arizona (TRSAZ) is a local non-profit that I am part of that works on preserving OHV Trails, and sharing proper use of the trails. As a form of help towards the cause, I have taken over their entire website. Including a more automated new member registration system over the old system.
+Project Links Link to Site: http://trsaz.org</description>
+    </item>
+    
+    <item>
+      <title>CCASS Website</title>
+      <link>http://williamhastings.me/portfolio/ccass-website/</link>
+      <pubDate>Fri, 01 Sep 2017 13:22:07 -0700</pubDate>
+      
+      <guid>http://williamhastings.me/portfolio/ccass-website/</guid>
+      <description>Description As a student emlpoyee at the Insitute of Environment at The University of Arizona, we managed, built, and re-built many sites for many other organizations below us. One of them being the Center for Climate Adaptation Science and Solutions.
+Project Links Link to site: http://ccass.arizona.edu
+Link to emlpoyer: Institute of Environment (The University of Arizona)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,10 +1,13 @@
 {{ partial "header.html" . }}
 
-<section class="blog-article-list">
-	<h1 class="text-center">Blog Articles</h1>
+<div class="blog-article-list">
+	<h1>Random Ramblings</h1>
+	<p>Every once in a while as a Type 1 Diabetic (T1D), or as a Computer Science undergraduate at the University of Arizona I feel the need to ramble on about something that happened or I learned that I found really cool, and I want to share. If you like reading that kind of thing, then you're in the right place! Never know, you might find something interesting or useful.</p>
+
 	{{ range .Data.Pages }}
 	{{ .Render "li" }}
+	<hr />
 	{{ end }}
-</section>
+</div>
 
 {{ partial "footer.html" . }}

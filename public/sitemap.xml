@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://williamhastings.me/portfolio/trail-riders-of-southern-arizona/</loc>
+    <lastmod>2017-09-02T09:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/portfolio/ccass-website/</loc>
+    <lastmod>2017-09-01T13:22:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://williamhastings.me/blog/august/2017/my-first-post/</loc>
+    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://williamhastings.me/blog/september/2014/hello-hugo/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -15,7 +30,7 @@
   
   <url>
     <loc>http://williamhastings.me/blog/</loc>
-    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-05T21:14:51-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -49,14 +64,26 @@
   </url>
   
   <url>
+    <loc>http://williamhastings.me/portfolio/</loc>
+    <lastmod>2017-09-02T09:31:16-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://williamhastings.me/tags/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://williamhastings.me/categories/website/</loc>
+    <lastmod>2017-09-02T09:31:16-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://williamhastings.me/</loc>
-    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-02T09:31:16-07:00</lastmod>
     <priority>0</priority>
   </url>
   

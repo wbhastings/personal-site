@@ -14,6 +14,7 @@
 	<meta property="og:url" content="{{ .Permalink }}" />
 
 	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
 
@@ -27,20 +28,24 @@
 
 		<!-- Site Header START -->
 		<div class="container-fluid site-header">
-			
+
+			{{ partial "navigation.html" . }}
 			{{ partial "header-logo.html" . }}
 
+			<div class="container photo-credit">
+				<p class="photo-credit float-right">Photo Credit <i class="fa fa-beer" aria-hidden="true"></i></p>
+			</div>
 		</div>
 
 		<!-- Site Header END -->
 
-		<!-- Navigation START -->
+		<!-- Navigation START
 		<div class="container">
 
 			{{ partial "navigation.html" . }}
 
 		</div>
-		<!-- Navigation END -->
+		<Navigation END -->
 
 		<!-- Content START -->
 		<div class="container content-wrapper">

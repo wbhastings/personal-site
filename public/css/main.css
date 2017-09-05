@@ -1,110 +1,64 @@
-/**
- *
- * Globals
- *
- */
-/** Links **/
-a,
-a:focus,
-a:hover {
-  color: #2E2E2E; }
+@import "https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Condensed|Poiret+One|Yanone+Kaffeesatz|Yellowtail|Montserrat|Oswald";
+html {
+  font-family: "Montserrat", sans-serif; }
 
-/** Buttons **/
-.btn-default,
-.btn-default:hover,
-.brn-default:focus {
-  color: #2E2E2E;
-  text-shadow: none;
-  background-color: #fff;
-  border: #fff solid 1px; }
+.site-header {
+  background: url("/image/Tucson-downtown-skyline-cropped.jpg");
+  background-size: 100%;
+  background-position-y: 22%;
+  border-bottom: grey solid 1px;
+  font-family: "Oswald", sans-serif;
+  color: #FFFDF6;
+  height: 200px; }
+  .site-header .title-text-wrapper {
+    border-left: white solid 0.3rem; }
+  .site-header .title-text {
+    margin-bottom: 0;
+    font-size: 4em;
+    margin-top: 40px;
+    text-shadow: black 1px 1px; }
+  .site-header .title-sub-text {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    text-shadow: black 1px 1px; }
+  .site-header div.container.photo-credit {
+    position: relative;
+    top: 1.8rem; }
 
-/**
- *
- * Base Structure
- *
- */
-html,
-body {
-  height: 100%;
-  min-height: 100%;
-  background: #AFAFAF; }
+nav.navbar {
+  padding: 0; }
+  nav.navbar ul.navbar-nav {
+    margin-left: auto; }
+  nav.navbar .nav-link {
+    font-size: 1.1em;
+    font-weight: 700; }
 
-.site-wrapper {
-  padding-top: 90px;
-  padding-bottom: 40px;
-  min-height: 100%;
-  background: #EFEFEF;
-  box-shadow: 12px 0 15px -4px #888, -12px 0 8px -4px #888; }
+.blog-article-list {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem; }
+  .blog-article-list .blog-post-small:hover {
+    background: rgba(0, 0, 0, 0.03); }
+  .blog-article-list h1 {
+    font-family: "Yellowtail", cursive;
+    font-size: 2.75rem;
+    font-weight: 700; }
+  .blog-article-list .read-more {
+    margin-top: 1rem;
+    overflow: hidden; }
 
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top; }
-  @media (min-width: 768px) {
-    .site-wrapper-inner {
-      vertical-align: middle; } }
+.blog-portfolio-card {
+  padding-top: 1.5rem; }
+  .blog-portfolio-card:hover {
+    background: rgba(0, 0, 0, 0.03); }
+  .blog-portfolio-card a.btn.btn-dark {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem; }
+  .blog-portfolio-card .card-body {
+    margin-bottom: 4rem; }
 
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%; }
-
-/** Header **/
-.masthead {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: #162D59;
-  padding-bottom: 10px; }
-
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #EFEFEF; }
-  @media (min-width: 768px) {
-    .masthead-brand {
-      float: left; } }
-
-@media (min-width: 768px) {
-  .masthead-nav {
-    float: right; } }
-
-.masthead-nav > li {
-  display: inline-block; }
-
-.masthead-nav > li + li {
-  margin-left: 20px; }
-
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #EFEFEF;
-  border-bottom: 2px solid transparent; }
-  .masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
-    background-color: transparent;
-    border-bottom-color: #A9A9A9;
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
-
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #EFEFEF;
-  border-bottom-color: #fff; }
-
-/**
- *
- * Footer
- *
- */
-.mastfoot {
-  color: #999;
-  /* IE8 Spoofing */
-  color: rgba(255, 255, 255, 0.5);
-  background: #162D59;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding-top: 10px; }
+footer.page-footer {
+  background: #181340;
+  color: #FFFDF6; }
 
 /*# sourceMappingURL=main.css.map */

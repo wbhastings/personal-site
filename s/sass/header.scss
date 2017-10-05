@@ -1,0 +1,28 @@
+.site-header {
+	background: $header-background;
+	background-size: 100%;
+	background-position-y: 22%;
+	border-bottom: grey solid 1px;
+	font-family: $font-header;
+	color: $font-color-milky;
+	height: 200px;
+
+	.title-text-wrapper {
+		border-left: white solid 0.3rem;	
+	}	
+	.title-text {
+		margin-bottom: 0;
+		font-size: 4em;
+		margin-top: 40px;
+		text-shadow: black 1px 1px;
+	}
+	.title-sub-text {
+		margin-left: 0.5rem;
+		font-size: 1.3rem;
+		text-shadow: black 1px 1px;
+	}
+	div.container.photo-credit {
+		position: relative;
+		top: 1.8rem;
+	}
+}

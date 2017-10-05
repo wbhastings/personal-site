@@ -1,12 +1,9 @@
-nav.navbar {
-	padding: 0;
-
-	ul.navbar-nav {
-		margin-left: auto;
-	}
-
+nav {
+	padding-top: 0.3rem;
 	.nav-link {
-		font-size: 1.1em;
+		font-size: 1.1rem;
 		font-weight: 700;
+
+		color: white;
 	}
 }

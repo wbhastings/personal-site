@@ -23,15 +23,15 @@ html {
     text-shadow: black 1px 1px; }
   .site-header div.container.photo-credit {
     position: relative;
-    top: 1.8rem; }
+    top: 1.6rem;
+    color: white; }
 
-nav.navbar {
-  padding: 0; }
-  nav.navbar ul.navbar-nav {
-    margin-left: auto; }
-  nav.navbar .nav-link {
-    font-size: 1.1em;
-    font-weight: 700; }
+nav {
+  padding-top: 0.3rem; }
+  nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white; }
 
 .blog-article-list {
   margin-top: 0.5rem;
@@ -60,12 +60,21 @@ nav.navbar {
 footer.page-footer {
   background: #181340;
   color: #FFFDF6; }
+  footer.page-footer .row {
+    padding-top: 1rem; }
+  footer.page-footer .social-menu li {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem; }
+    footer.page-footer .social-menu li a {
+      color: #FFFDF6; }
+      footer.page-footer .social-menu li a span {
+        font-size: 1.5rem;
+        width: 3.2rem;
+        margin-right: 0.3rem; }
   footer.page-footer .footer-menu li {
-    margin-top: 5px;
-    border-bottom: #FFFDF6 solid 1px; }
+    margin-top: 0.3rem; }
     footer.page-footer .footer-menu li a {
       color: #FFFDF6; }
-    footer.page-footer .footer-menu li:first-child {
-      border-top: #FFFDF6 solid 1px; }
 
 /*# sourceMappingURL=main.css.map */

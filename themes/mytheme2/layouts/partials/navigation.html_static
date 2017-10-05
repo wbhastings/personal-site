@@ -1,0 +1,24 @@
+<!-- Navigation START -->
+<div class="container">
+	<nav>
+		<ul class="nav nav-pills justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Ramblings</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Resume/CV</a>
+			</li>
+			<li class="nav-items">
+				<a class="nav-link" href="#">Contact Me</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+<!-- Navigation END -->

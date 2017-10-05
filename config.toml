@@ -18,5 +18,36 @@ facebook = "willbhastings"
 github = "wbhastings"
 linkedin = "william-hastings-03128194"
 
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home'></i>"
+    weight = -110
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Portfolio"
+    pre = "<i class='fa fa-folder-o'></i>"
+    weight = -100
+    identifier = "portfolio"
+    url = "/portfolio/"
+[[menu.main]]
+    name = "Ramblings"
+    pre = "<i class='fa fa-pencil'></i>"
+    weight = -90
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "Resume/CV"
+    pre = "<i class='fa fa-file-text-o'></i>"
+    weight = -80
+    identifier = "resume"
+    url = "/resume/"
+[[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-paper-plane-o'></i>"
+    weight = -70
+    identifier = "contact"
+    url = "/contact"
+
 [permalinks]
 blog = "/blog/:monthname/:year/:title/"

@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Semi+Condensed|Poiret+One|Yanone+Kaffeesatz|Yellowtail|Montserrat|Oswald';
+
+$font-normal: 'Montserrat', sans-serif;
+$font-header: 'Oswald', sans-serif;
+$font-clean: 'Poiret One', sans-serif;
+$font-fancy: 'Yellowtail', cursive;
+
+//$header-background: url('/image/skyline-tucson.jpg');  //PHOTO: Andrew Brown, AZPM
+$header-background: url('/image/Tucson-downtown-skyline-cropped.jpg'); //PHOTO: Tucson Electric Power
+$footer-background-color: #181340;
+
+$font-color-milky: #FFFDF6;
+
+html {
+	font-family: $font-normal;
+}

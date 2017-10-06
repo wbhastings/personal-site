@@ -1,8 +1,10 @@
 #ignore public directory as this is generated with hugo command
-/public
+!public/
+public/*
 
 #ignore hugo server directory as this is where the "hugo server" files are kept while working on the site
-/s
+!s/
+s/*
 
 #ignore .swp file from editing files
 *.swp

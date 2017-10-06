@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<article>
+	<header>
+		<h1>{{ .Title }}</h1>
+		<hr />
+
+		<!--
+	  	<div class="post-meta clearfix">
+			<p>Posted on <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time></p>
+		</div>
+		-->
+	</header>
+
+	<section>
+		<div class="row">
+			<div class="portfolio-single-info col-xs-12 col-sm-12 col-md-5">
+				<div class="portfolio-single-categories-tags">
+
+				{{ range .Params.categories }}
+				
+					<span class="badge badge-info">{{ . }}</span>	
+
+				{{ end}}
+				{{ range .Params.tags }}
+
+					<span class="badge badge-secondary">{{ . }}</span>
+
+				{{ end }}
+
+				</div>
+				<ul class="portfolio-single-links list-group">
+
+				{{ range .Params.links }}
+					
+					<li class="list-group-item">{{ . | markdownify }}</li>
+					
+				{{ end }}
+
+				</ul>
+			</div>
+			<div class="portfolio-single-img col-xs-12 col-sm-12 col-md-7">
+				<img class="img-responsive" src="{{.Params.image }}" alt="Project Image" />
+			</div>
+		</div>
+	</section>
+
+	<section>
+		{{ .Content }}
+	</section>
+</article>
+
+{{ partial "footer.html" . }}

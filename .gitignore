@@ -8,3 +8,6 @@ s/*
 
 #ignore .swp file from editing files
 *.swp
+
+#ignore google-analytics files
+google-analytics.js

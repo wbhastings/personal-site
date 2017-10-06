@@ -10,4 +10,4 @@ s/*
 *.swp
 
 #ignore google-analytics files
-google-analytics.js
+google-analytics.html

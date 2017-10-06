@@ -27,25 +27,27 @@
 	<div class="site-wrapper">
 
 		<!-- Site Header START -->
+		{{ if .IsHome }}
+
+		<div id="header-home" class="container-fluid site-header-home">
+
+		{{ else }}
+
 		<div class="container-fluid site-header">
 
+		{{ end }}
 			{{ partial "navigation.html" . }}
 			{{ partial "header-logo.html" . }}
-
+		<!--
 			<div class="container photo-credit">
 				<p class="photo-credit float-right">Photo Credit <i class="fa fa-beer" aria-hidden="true"></i></p>
 			</div>
+		-->
 		</div>
-
-		<!-- Site Header END -->
-
-		<!-- Navigation START
-		<div class="container">
-
-			{{ partial "navigation.html" . }}
-
-		</div>
-		<Navigation END -->
-
 		<!-- Content START -->
+		{{ if .IsHome }}
+		{{ else }}
+
 		<div class="container content-wrapper">
+		
+		{{ end }}

@@ -1,4 +1,26 @@
+{{ if .IsHome }}
+
+<div class="container title-text-wrapper-home">
+	<h1>Welcome!</h1>
+	<h2>My name is William Hastings, and I am a Computer Science Undergraduate!</h2>
+	<p>
+		{{ .Site.Params.subtitle }}
+	</p>
+	<div class="social-links">
+		<a class="circle" href="#"><i class="fa fa-linkedin"></i></a>
+		<a class="circle" href="#"><i class="fa fa-code-fork"></i></a>
+		<a class="circle" href="#"><i class="fa fa-bitbucket"></i></a>
+		<a class="circle" href="#"><i class="fa fa-twitter"></i></a>
+	</div>
+</div>
+
+{{ else }}
+
 <div class="container title-text-wrapper">
 	<h1 class="title-text">William Hastings</h1>
-	<p class="title-sub-text">Just another Computer Scienctists and T1D ramblings!</p>
+	<p class="title-sub-text">
+		{{ .Site.Params.shortsubtitle }}
+	</p>
 </div>
+
+{{ end }}

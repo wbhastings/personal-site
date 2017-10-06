@@ -2,7 +2,7 @@
 	padding-top: 1.5rem;
 
 	&:hover {
-		background: rgba(0,0,0,0.03);
+		//background: rgba(0,0,0,0.03);
 	}
 	a.btn.btn-dark {
 		position: absolute;
@@ -11,5 +11,11 @@
 	}
 	.card-body {
 		margin-bottom: 4rem;
+	}
+}
+
+.portfolio-single-info {
+	.portfolio-single-categories-tags {
+		padding-bottom: 0.2rem;
 	}
 }

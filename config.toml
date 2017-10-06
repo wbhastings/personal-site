@@ -10,7 +10,8 @@ aliases = [
 ]
 
 [params]
-subtitle = "I'm Undergraduate Computer Science major with a minor in Mathematics at The Univerversity of Arizona. I am doing what I love, and you can't ask for much more than that!"
+subtitle = "I'm a Undergraduate Computer Science major with a minor in Mathematics at The Univerversity of Arizona. I am doing what I love, and you can't ask for much more than that!"
+shortsubtitle = "CS Undergrad with Mathematics Minor. Who knew we could be so funny?!"
 contact = "william@willhastings.net"
 twitter = "willbhastings"
 instagram = "wbhastings"
@@ -47,7 +48,7 @@ linkedin = "william-hastings-03128194"
     pre = "<i class='fa fa-paper-plane-o'></i>"
     weight = -70
     identifier = "contact"
-    url = "/contact"
+    url = "/contact/"
 
 [permalinks]
 blog = "/blog/:monthname/:year/:title/"

@@ -2,6 +2,8 @@ footer.page-footer {
 	background: $footer-background-color;
 	color: $font-color-milky;
 
+	box-shadow: 0px -5px -5px rgba(0,0,0,0.75);
+
 	.row {
 		padding-top: 1rem;
 	}
@@ -19,6 +21,7 @@ footer.page-footer {
 				span {
 					font-size: 1.5rem;
 					width: 3.2rem;
+					height: 3.2rem;
 					margin-right: 0.3rem;
 				}
 			}

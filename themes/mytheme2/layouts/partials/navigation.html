@@ -5,27 +5,13 @@
 
 			{{ $cPage := . }}
 			{{ range .Site.Menus.main }}
+			
 			<li class="nav-item">
-				<a class="nav-link {{ if $cPage.HasMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+				<a class="nav-link {{ if or ($cPage.IsMenuCurrent "main" .) ($cPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
 			</li>
 			
 			{{ end }}
 
-			<!--<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="#">Portfolio</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Ramblings</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Resume/CV</a>
-			</li>
-			<li class="nav-items">
-				<a class="nav-link" href="#">Contact Me</a>
-			</li>-->
 		</ul>
 	</nav>
 </div>

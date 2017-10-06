@@ -1,5 +1,9 @@
+		{{ if .IsHome }}
+		{{ else }}
+
 		</div>
 
+		{{ end }}
 		<!-- Content END -->
 
 		<!-- Footer START -->
@@ -58,9 +62,15 @@
 
 	<!-- Javascript START -->
 
+	<script src="{{ .Site.BaseURL }}js/jquery-3.2.1.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/popper.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
 
+	{{ if .IsHome }}
+
+	<script src="{{ .Site.BaseURL }}js/homepage.js"></script>
+
+	{{ end }}
 	<!-- Javascript END -->
 </body>
 </html>

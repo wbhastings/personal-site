@@ -12,7 +12,7 @@
 	}	
 	.title-text {
 		margin-bottom: 0;
-		font-size: 4em;
+		font-size: 4rem;
 		margin-top: 40px;
 		text-shadow: black 1px 1px;
 	}
@@ -25,5 +25,47 @@
 		position: relative;
 		top: 1.6rem;
 		color: white;
+	}
+}
+
+.site-header-home {
+	background: $header-background;
+	background-size: 100% 100%;
+	font-family: $font-header;
+	color: $font-color-milky;
+	//height: 100%;
+
+	.title-text-wrapper-home {
+		position: relative;
+		top: 30%;
+
+		border-left: white solid 0.3rem;
+		text-shadow: black 1px 1px;
+
+		h1 {
+			margin-bottom: 0;
+			font-size: 3rem;
+		}
+		h2 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.3rem;
+		}
+		a {
+			color: $font-color-milky;
+			font-size: 3rem;
+			text-align: center;
+			padding: 0.5rem;
+			margin-right: 0.3rem;
+			margin-bottom: 0.3rem;
+
+			i {
+				width: 4.5rem;
+			}
+			&:hover {
+				border-width: 5px;
+			}
+		}
 	}
 }

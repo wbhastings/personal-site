@@ -1,7 +1,7 @@
 baseURL = "http://williamhastings.me/"
 languageCode = "en-us"
 title = "William Hastings"
-theme ="mytheme2"
+theme ="myTheme"
 copyright = "Copyright &#xA9; 2017 William Hastings"
 
 aliases = [
@@ -11,13 +11,8 @@ aliases = [
 
 [params]
 subtitle = "I'm a Undergraduate Computer Science major with a minor in Mathematics at The Univerversity of Arizona. I am doing what I love, and you can't ask for much more than that!"
-shortsubtitle = "CS Undergrad with Mathematics Minor. Who knew we could be so funny?!"
-contact = "william@willhastings.net"
-twitter = "willbhastings"
-instagram = "wbhastings"
-facebook = "willbhastings"
-github = "wbhastings"
-linkedin = "william-hastings-03128194"
+shortsubtitle = "CS Undergrad with a Mathematics Minor. Who knew we could be so funny?!"
+comments = false
 
 [[menu.main]]
     name = "Home"
@@ -49,6 +44,27 @@ linkedin = "william-hastings-03128194"
     weight = -70
     identifier = "contact"
     url = "/contact/"
+
+[[menu.social]]
+    name = "Visit me on LinkedIn"
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://www.linkedin.com/in/william-hastings-03128194/"
+    weight = -110
+[[menu.social]]
+    name = "View my GitHub projects"
+    pre = "<i class='fa fa-code-fork'></i>"
+    url = "https://github.com/wbhastings"
+    weight = -100
+[[menu.social]]
+    name = "View my BitBucket profile"
+    pre = "<i class='fa fa-bitbucket'></i>"
+    url = "https://bitbucket.org/wbhastings/"
+    weight = -90
+[[menu.social]]
+    name = "View my Twitter social life"
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "https://twitter.com/willbhastings"
+    weight = -80
 
 [permalinks]
 blog = "/blog/:monthname/:year/:title/"

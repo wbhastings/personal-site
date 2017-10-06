@@ -36,23 +36,11 @@
 								          
 				</div>
 				<div class="social-menu col-xs-12 col-sm-12 col-md-4">
-					<ul class="nav flex-column">
-						<li class="nav-link">
-							<a class="nav-link" href="#"><span class="badge badge-secondary"><i class="fa fa-linkedin" aria-hidden="true"></i></span>View me on LinkedIn</a>
-						</li>
-						<li class="nav-link">
-							<a class="nav-link" href="#"><span class="badge badge-secondary"><i class="fa fa-twitter" aria-hidden="true"></i></span>Follow me on Twitter</a>
-						</li>
-						<li class="nav-link">
-							<a class="nav-link" href="#"><span class="badge badge-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i></span>View me on GitHub</a>
-						</li>
-						<li class="nav-link">
-							<a class="nav-link" href="#"><span class="badge badge-secondary"><i class="fa fa-bitbucket" aria-hidden="true"></i></span>View me on BitBucket</a>
-						</li>
-						<li class="nav-link">
-							<a class="nav-link" href="#"><span class="badge badge-secondary"><i class="fa fa-bicycle" aria-hidden="true"></i></span>View my JDRF Ride Page</a>
-						</li>
-					</ul>
+					{{ range .Site.Menus.social }}
+
+					<a class="circle" title="{{ .Name }}" href="{{ .URL }}">{{ .Pre }}</a>
+
+					{{ end }}
 				</div>
 				<div class="col-12"><p class="copyright text-center">Copyright</p></div>
 				</div>

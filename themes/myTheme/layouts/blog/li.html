@@ -7,6 +7,18 @@
 	
 		<p>{{ .Summary }}</p>
 
+		{{ range .Params.categories }}
+
+		<span class="badge badge-info">{{ . }}</span>
+
+		{{ end }}
+		
+		{{ range .Params.tags }}
+
+		<span class="badge badge-secondary">{{ . }}</span>
+
+		{{ end }}
+
 		<div class="read-more">
 			<a href="{{ .Permalink }}" class="btn btn-dark btn-sm float-right">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 		</div>

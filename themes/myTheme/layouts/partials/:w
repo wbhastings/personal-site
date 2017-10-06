@@ -4,6 +4,9 @@
 <!-- Overall Header BEGIN -->
 
 <head>
+	<!-- Google Analytics JS -->
+	{{ partial "google-analytics.html" . }}
+
 	<!-- Character set, and Bootstrap required META -->
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE-edge" />

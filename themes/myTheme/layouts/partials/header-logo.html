@@ -7,10 +7,11 @@
 		{{ .Site.Params.subtitle }}
 	</p>
 	<div class="social-links">
-		<a class="circle" href="#"><i class="fa fa-linkedin"></i></a>
-		<a class="circle" href="#"><i class="fa fa-code-fork"></i></a>
-		<a class="circle" href="#"><i class="fa fa-bitbucket"></i></a>
-		<a class="circle" href="#"><i class="fa fa-twitter"></i></a>
+		{{ range .Site.Menus.social }}
+
+		<a class="circle" title="{{ .Name }}" href="{{ .URL }}">{{ .Pre }}</a>
+
+		{{ end }}
 	</div>
 </div>
 

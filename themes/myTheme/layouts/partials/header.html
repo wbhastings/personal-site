@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<!-- Overall Header BEGIN -->
+
+<head>
+	<!-- Google Analytics JS -->
+	{{ partial "google-analytics.html" . }}
+
+	<!-- Character set, and Bootstrap required META -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- SEO Meta -->
+	<meta property="og:site_name" content="{{ .Site.Title }}" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+
+	<!-- JS in Footer Partial -->
+</head>
+
+<!-- Overall Header END -->
+
+<body>
+	<div class="site-wrapper">
+
+		<!-- Site Header START -->
+		{{ if .IsHome }}
+
+		<div id="header-home" class="container-fluid site-header-home">
+
+		{{ else }}
+
+		<div class="container-fluid site-header">
+
+		{{ end }}
+			{{ partial "navigation.html" . }}
+			{{ partial "header-logo.html" . }}
+		<!--
+			<div class="container photo-credit">
+				<p class="photo-credit float-right">Photo Credit <i class="fa fa-beer" aria-hidden="true"></i></p>
+			</div>
+		-->
+		</div>
+		<!-- Content START -->
+		{{ if .IsHome }}
+		{{ else }}
+
+		<div class="container content-wrapper">
+		
+		{{ end }}

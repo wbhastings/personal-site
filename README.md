@@ -18,7 +18,7 @@ Not much more to say, so here is a image of the homepage:
 MIT Copyright
 ------
 ```
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2017 William B. Hastings
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

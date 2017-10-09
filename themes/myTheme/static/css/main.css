@@ -102,7 +102,8 @@ nav {
   background: white; }
 
 footer.page-footer {
-  background: #181340;
+  background: #474753;
+  background-size: 100% 100%;
   color: #FFFDF6;
   box-shadow: 0px -5px -5px rgba(0, 0, 0, 0.75); }
   footer.page-footer .row {

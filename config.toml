@@ -27,18 +27,6 @@ copyright = "Copyright &#xA9; 2017 William Hastings"
     weight = -90
     identifier = "blog"
     url = "/blog/"
-[[menu.main]]
-    name = "Resume/CV"
-    pre = "<i class='fa fa-file-text-o'></i>"
-    weight = -80
-    identifier = "resume"
-    url = "/resume/"
-[[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-paper-plane-o'></i>"
-    weight = -70
-    identifier = "contact"
-    url = "/contact/"
 
 [[menu.social]]
     name = "Visit me on LinkedIn"

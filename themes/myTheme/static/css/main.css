@@ -9,7 +9,7 @@ html {
   background: rgba(0, 0, 0, 0.04);
   padding-bottom: 1.5rem;
   padding-top: 0.5rem;
-  box-shadow: 0 9px 0px 0px transparent, 0 -9px 0px 0px transparent, 12px 0 15px -4px rgba(0, 0, 0, 0.05), -12px 0 15px -4px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0), 0 -9px 0px 0px rgba(0, 0, 0, 0), 12px 0 15px -4px rgba(0, 0, 0, 0.05), -12px 0 15px -4px rgba(0, 0, 0, 0.05); }
 
 .circle {
   border: solid 3px white;
@@ -115,7 +115,7 @@ footer.page-footer {
     padding: 0.5rem;
     margin-right: 0.2rem; }
     footer.page-footer .social-menu a i {
-      width: 2rem; }
+      width: 3rem; }
     footer.page-footer .social-menu a:hover {
       border-width: 4px;
       margin-right: 0.1rem; }

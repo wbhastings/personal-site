@@ -6,6 +6,9 @@ public/*
 !s/
 s/*
 
+#ignore sass-cache
+themes/myTheme/static/.sass-cache/*
+
 #ignore .swp file from editing files
 *.swp
 

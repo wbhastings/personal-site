@@ -3,7 +3,7 @@ title: "My First Post"
 date: 2017-08-05T21:14:51-07:00
 categories: [ "life" ]
 tags: [ "JDRF", "T1D" ]
-draft: true
+draft: false 
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is my first post on my new site. I don't have much to write about yet, but let me tell you a bit about myself. I am a Undergrad student at the _University of Arizona_, and I am studying Computer Science. I am currently a Junior in the degree track, and have added a _Math_, and _Physics_ minor to degree.  
   

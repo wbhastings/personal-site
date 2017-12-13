@@ -7,7 +7,7 @@ categories: [ "website" ]
 tags: [ "html", "css", "php", "phpbb" ]
 links:
   - "Link to Site: [http://trsaz.org](http://trsaz.org)"
-draft: true
+draft: false
 ---
 
 Trail Riders of Southen Arizona (TRSAZ) is a local non-profit that I am part of that works on preserving OHV Trails, and sharing proper use of the trails. As a form of help towards the cause, I have taken over their entire website. Including a more automated new member registration system over the old system.

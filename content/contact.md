@@ -5,9 +5,7 @@ menu:
   main:
     weight: -70
     pre: "<i class='fa fa-paper-plane-o'></i>"
-draft: true
+draft: false
 ---
-You can contact me via: 
-email@email.com 
-(###)-###-#### 
-
+You can contact me by email:
+william@willhastings.net

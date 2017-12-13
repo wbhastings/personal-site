@@ -5,13 +5,8 @@ menu:
   main:
     weight: -80
     pre: "<i class='fa fa-file-text-o'></i>"
-draft: true
+draft: false
 ---
-William Hastings
-===
-Resume  
-* test 1 
-* test 2 
-* test 3 
-
-
+<object data="../file/resume-12-12-2017.pdf" type="application/pdf" width="100%" height="1000px">
+Download : <a href="../file/resume-12-12-2017.pdf">Click Here</a>
+</object>
